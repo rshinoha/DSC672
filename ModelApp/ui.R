@@ -6,7 +6,7 @@ makes <- as.vector(unique(df$Make))
 
 fluidPage(
   
-  titlePanel('Bar Plots of Car Models'),
+  titlePanel('Jitter Plot of Car Models in Stanford Cars Dataset'),
   
   sidebarLayout(
     
