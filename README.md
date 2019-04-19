@@ -6,5 +6,6 @@ This is a repository containing R and python scripts pertaining to the DSC672 gr
 * (More to come)
 ## Running Shiny Apps
 Currently, running the jitter plot app (DSC672/ModelApp) using runGitHub() is not working. Therefore, users must clone the repository first and run it on RStudio. To do this, first open RStudios in the folder containing the Shiny app. Then, enter the following into the RStudio console:
+
     library(shiny)
     runApp()
